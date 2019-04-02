@@ -92,5 +92,5 @@ rmses <- sapply(lambdas, function(l){
 qplot(lambdas, rmses)
 lambdas[which.min(rmses)]
 
-#RMSE = 0.825936
+#RMSE = 0.825
 
